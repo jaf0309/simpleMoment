@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-base-web/base-quertz/base-quertz.iml" filepath="$PROJECT_DIR$/java-base-web/base-quertz/base-quertz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-base-web/base-xxljob/base-xxljob.iml" filepath="$PROJECT_DIR$/java-base-web/base-xxljob/base-xxljob.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-base/java-base.iml" filepath="$PROJECT_DIR$/java-base/java-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-base-web/java-base-web.iml" filepath="$PROJECT_DIR$/java-base-web/java-base-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-common/java-common.iml" filepath="$PROJECT_DIR$/java-common/java-common.iml" />
