@@ -22,9 +22,9 @@ public class ChatServer implements InitializingBean {
     @Autowired
     private ThreadPoolTaskExecutor taskExecutor;
 
-    private final int port;
+    private  Integer port;
 
-    public ChatServer(int port) {
+    public ChatServer(Integer port) {
         this.port = port;
     }
 

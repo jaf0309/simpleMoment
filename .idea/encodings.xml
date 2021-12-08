@@ -2,11 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/java-base-web/base-quertz/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-base-web/base-quertz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-base-web/base-xxljob/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-base/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-base/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-common/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/java-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-netty/src/main/java" charset="UTF-8" />
   </component>
 </project>

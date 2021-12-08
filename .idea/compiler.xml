@@ -9,12 +9,13 @@
         <module name="java-base" />
         <module name="java-netty" />
         <module name="base-quertz" />
-        <module name="java-base-web" />
         <module name="java-common" />
+        <module name="base-xxljob" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="base-quertz" target="8" />
+      <module name="base-xxljob" target="8" />
       <module name="java-base" target="8" />
       <module name="java-base-web" target="8" />
       <module name="java-common" target="8" />
@@ -25,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="base-quertz" options="-parameters" />
+      <module name="base-xxljob" options="-parameters" />
       <module name="java-base" options="-parameters" />
       <module name="java-base-web" options="-parameters" />
       <module name="java-common" options="-parameters" />

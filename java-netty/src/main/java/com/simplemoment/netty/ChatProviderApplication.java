@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * 聊天服务提供者
  *
- * @author techa03
+ * @author simplemoment
  * @date 2020/12/7
  */
 @SpringBootApplication
