@@ -37,7 +37,7 @@
         <guava.version>29.0-jre</guava.version>
         <pagehelper.spring.boot.starter.version>1.2.13</pagehelper.spring.boot.starter.version>
         <validation-api-version>2.0.0.Final</validation-api-version>
-        <hibernate-validator-version>6.0.7.Final</hibernate-validator-version>
+        <hibernate-validator-version>6.0.20.Final</hibernate-validator-version>
         <dubbo.version>2.7.5</dubbo.version>
         <pandora-boot.version>2020-04-release</pandora-boot.version>
         <velocity.starter.version>1.0.4.RELEASE</velocity.starter.version>
