@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="1 seconds">
+
+    <contextName>job-oos</contextName>
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- elk日志路径 -->
+    <springProperty scope="context" name="ordercenter.order.elk.log.url" source="ordercenter.order.elk.log.url"></springProperty>
+    <!-- ELK日志 -->
+    <appender name="elkLog" class="com.yundasys.ordercenter.framework.log.elk.ElkAppender">
+        <layout>
+            <Pattern>%d [%level] %logger{36} %line - %msg%n</Pattern>
+        </layout>
+        <elkLogUrl>${ordercenter.order.elk.log.url}</elkLogUrl>
+        <elkLogServiceId>${ordercenter.order.elk.log.service.id}</elkLogServiceId>
+    </appender>
+
+    <!-- ELK日志异步执行 -->
+    <appender name="ASYNC" class="ch.qos.logback.classic.AsyncAppender">
+        <queueSize>2048</queueSize>
+        <appender-ref ref="elkLog" />
+    </appender>
+
+    <root level="info">
+        <appender-ref ref="console"/>
+        <appender-ref ref="elkLog"/>
+    </root>
+</configuration>

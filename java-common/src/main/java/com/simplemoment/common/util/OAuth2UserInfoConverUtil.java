@@ -1,6 +1,6 @@
 package com.simplemoment.common.util;
 
-import com.goodskill.common.info.OAuth2UserInfo;
+import com.simplemoment.common.info.OAuth2UserInfo;
 import org.springframework.security.oauth2.core.user.OAuth2User;
 
 /**
@@ -19,7 +19,7 @@ public class OAuth2UserInfoConverUtil {
      */
     public static OAuth2UserInfo convert(OAuth2User oAuth2User) {
         OAuth2UserInfo oAuth2UserInfo = new OAuth2UserInfo();
-        oAuth2UserInfo.setAccount(oAuth2User.getAttribute("name"));
+        //oAuth2UserInfo.setAccount(oAuth2User.getAttribute("name"));
         return oAuth2UserInfo;
     }
 
