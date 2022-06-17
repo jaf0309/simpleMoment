@@ -41,7 +41,7 @@
         <dubbo.version>2.7.5</dubbo.version>
         <pandora-boot.version>2020-04-release</pandora-boot.version>
         <velocity.starter.version>1.0.4.RELEASE</velocity.starter.version>
-        <fastjson.version>1.2.75</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <nacos.version>2.1.1.RELEASE</nacos.version>
         <apollo.version>1.5.1</apollo.version>
         <druid-spring.version>1.1.22</druid-spring.version>
