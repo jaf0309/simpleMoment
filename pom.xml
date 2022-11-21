@@ -46,7 +46,7 @@
         <apollo.version>1.5.1</apollo.version>
         <druid-spring.version>1.1.22</druid-spring.version>
         <dynamic-datasource.version>3.2.0</dynamic-datasource.version>
-        <xxljob.version>2.2.0</xxljob.version>
+        <xxljob.version>2.3.1</xxljob.version>
         <promotioncenter-common.version>1.0.0-SNAPSHOT</promotioncenter-common.version>
         <promotioncenter-client.version>1.0.0-SNAPSHOT</promotioncenter-client.version>
     </properties>
